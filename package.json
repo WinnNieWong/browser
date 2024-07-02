@@ -1,7 +1,7 @@
 {
-    "name": "@zxing/browser",
+    "name": "@vnyw/browser",
     "version": "0.1.5",
-    "description": "ZXing for JS's browser layer.",
+    "description": "vnyw's fork of ZXing for JS's browser layer.",
     "keywords": [
         "reader",
         "writer",
@@ -16,21 +16,11 @@
         "typescript",
         "zxing"
     ],
-    "authors": [
-        {
-            "name": "David Werth",
-            "email": "werth.david@gmail.com"
-        },
-        {
-            "name": "Luiz Barni",
-            "email": "machado@odahcam.com"
-        }
-    ],
     "license": "MIT",
-    "bugs": "https://github.com/zxing-js/browser/issues/new",
+    "bugs": "https://github.com/WinnNieWong/browser/issues/new",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zxing-js/browser"
+        "url": "https://github.com/WinnNieWong/browser"
     },
     "private": false,
     "main": "./cjs/index.js",
