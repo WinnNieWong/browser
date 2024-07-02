@@ -783,7 +783,12 @@ export class BrowserCodeReader {
     if (!deviceId) {
       videoConstraints = { facingMode: 'environment' };
     } else {
-      videoConstraints = { deviceId: { exact: deviceId } };
+      videoConstraints = {
+        deviceId: { exact: deviceId },
+        width: { min: 640, ideal: 1920 },
+        height: { min: 400, ideal: 1080 },
+        aspectRatio: { ideal: 1.7777777778 }
+      };
     }
 
     const constraints: MediaStreamConstraints = { video: videoConstraints };
