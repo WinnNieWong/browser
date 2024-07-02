@@ -40,7 +40,7 @@ jobs:
       - name: Build the package
         run: |
           npm pack dist/
-          mv zxing-browser-*.tgz package.tgz
+          mv vnyw-browser-*.tgz package.tgz
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v1
