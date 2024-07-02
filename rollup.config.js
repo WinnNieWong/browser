@@ -9,6 +9,6 @@ export default {
     format: 'umd',
     name: 'ZXingBrowser',
     sourcemap: true,
-    file: 'dist/umd/zxing-browser.js'
+    file: 'dist/umd/vnyw-browser.js'
   },
 };
