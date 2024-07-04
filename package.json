@@ -1,5 +1,5 @@
 {
-    "name": "@vnyw/browser",
+    "name": "@vnyw/browzer",
     "version": "0.1.5",
     "description": "vnyw's fork of ZXing for JS's browser layer.",
     "keywords": [
