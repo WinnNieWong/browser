@@ -29,7 +29,7 @@
     "esnext": "./es2015/index.js",
     "unpkg": "./umd/vnyw-browser.min.js",
     "scripts": {
-        "publish:dist": "npm publish dist --access=public",
+        "publish:dist": "npm publish ./dist --access=public",
         "clean": "./node_modules/.bin/shx rm -rf umd esm esm5",
         "build": "npm run clean && npm run build:es2015 && npm run build:esm && npm run build:cjs && npm run build:umd && npm run build:umd:min && npm run build:copy",
         "build:es2015": "tsc --build tsconfig.lib-es2015.json",
